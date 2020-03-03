@@ -2,8 +2,9 @@ stages:
 - name: build
   steps:
   - publishImageConfig:
-      dockerfilePath: nginx-hello/Dockerfile
+      dockerfilePath: ./nginx-hello/Dockerfile
       buildContext: .
       tag: nginxdemos-hello
+      registry: 127.0.0.1:34356
 timeout: 60
 notification: {}
