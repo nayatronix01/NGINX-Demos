@@ -2,7 +2,7 @@ stages:
 - name: Build
   steps:
   - publishImageConfig:
-      dockerfilePath: ./Dockerfile
+      dockerfilePath: nginx-hello/Dockerfile
       buildContext: .
       tag: nginxdemos-hello-github
       registry: 127.0.0.1:34656
