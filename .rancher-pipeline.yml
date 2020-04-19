@@ -2,7 +2,7 @@ stages:
 - name: build
   steps:
   - publishImageConfig:
-      dockerfilePath: ./nginx-demos/nginx-hello/Dockerfile
+      dockerfilePath: ./Dockerfile
       buildContext: .
       tag: nginxdemos-hello-github
       pushRemote: true
