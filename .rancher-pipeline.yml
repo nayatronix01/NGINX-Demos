@@ -10,3 +10,5 @@ stages:
 timeout: 60
 branch: {}
 notification: {}
+ env:
+      PLUGIN_DEBUG: "true" 
