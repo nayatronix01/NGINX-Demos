@@ -6,6 +6,6 @@ stages:
       buildContext: /NGINX-Demos/nginx-hello
       tag: nginxdemos-hello-github
       pushRemote: true
-      registry: 127.0.0.1:34439
+      registry: 127.0.0.1:34016
 timeout: 60
 notification: {}
