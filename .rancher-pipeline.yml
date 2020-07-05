@@ -5,7 +5,8 @@ stages:
       dockerfilePath: ./nginx-hello/Dockerfile
       buildContext: ./nginx-hello
       tag: nginxdemos-hello-github
-      registry: 127.0.0.1:34108
+      pushRemote: true
+      registry: 127.0.0.1:34016
 - name: Run
   steps:
   - applyYamlConfig:
