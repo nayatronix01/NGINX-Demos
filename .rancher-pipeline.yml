@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./nginx-hello/Dockerfile
       buildContext: ./nginx-hello
-      tag: nginxdemos-hello-github
+      tag: nginxdemos-hello:1.0
       registry: 127.0.0.1:34016
 - name: Run
   steps:
