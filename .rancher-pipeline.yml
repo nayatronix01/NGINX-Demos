@@ -6,7 +6,7 @@ stages:
       buildContext: ./nginx-hello
       tag: nginxdemos-hello:1.0
       pushRemote: true
-      registry: 127.0.0.1:34108
+      registry: 127.0.0.1:34016
 - name: Run
   steps:
   - applyYamlConfig:
