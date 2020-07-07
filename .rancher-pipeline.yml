@@ -5,7 +5,6 @@ stages:
       dockerfilePath: ./nginx-hello/Dockerfile
       buildContext: ./nginx-hello
       tag: nginxdemos-hello
-      pushRemote: true
       registry: 127.0.0.1:34016
 - name: Run
   steps:
