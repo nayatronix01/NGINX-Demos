@@ -11,7 +11,7 @@ stages:
   - applyYamlConfig:
       path: ./nginx-hello/deployment.yaml
 timeout: 60
+branch:
+  include:
+  - master
 notification: {}
-env:
-     PLUGIN_DEBUG: "true"
-     PLUGIN_INSECURE: "true"
